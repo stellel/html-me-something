@@ -1,0 +1,106 @@
+body {
+  background-color: #EFEBE9;
+  font-size: 62.5%;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+}
+
+header,
+main,
+footer {
+  background-color: #ffffff;
+  font-size: 1.6em;
+}
+
+header {
+  padding: 1.875em 0;
+  text-align: center;
+  border-bottom: .2em solid #D7CCC8;
+}
+
+
+h1, h2, h3 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.7em;
+}
+
+main h2 {
+  padding: 1.5em 0 1.5em 0.625em;
+  font-size: 1.7em;
+}
+
+section {
+  margin: 1.875em 0;
+}
+
+
+
+nav ul {
+  text-align: center;
+  padding: 0;
+}
+
+nav ul li {
+  background-color: #5B2C6F;
+  border-radius: .3em;
+  display: inline-block;
+  font-size: 1em;
+  margin-right: 1em;
+  padding: .5em 1em;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  padding: 1.25em;
+}
+
+footer {
+  text-align: center;
+  padding: 3em;
+}
+
+footer p {
+  display: inline-block;
+}
+
+img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+ul {
+  margin-bottom: 0;
+  padding: 40px 60px;
+}
+
+article li a {
+  font-size: 1.2em;
+  line-height: 150%;
+  text-decoration: none;
+  color: #5B2C6F;
+}
+
+.instagram-media{
+  margin: 15px auto !important;
+}
+
+@media screen and (max-width: 680px) {
+  nav ul li {
+    margin: 1em 0;
+    display: block;
+    font-size: 1em;
+  }
+  body {
+    font-size: 50%;
+  }
+}
