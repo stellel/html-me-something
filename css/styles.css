@@ -64,8 +64,9 @@ p {
 }
 
 footer {
+  border-top: .2em solid #D7CCC8;
   text-align: center;
-  padding: 3em;
+  padding: 5em 3em 3em;
 }
 
 footer p {
@@ -92,6 +93,25 @@ article li a {
 
 .instagram-media{
   margin: 15px auto !important;
+}
+
+#contact {
+  background-color: #5B2C6F;
+  border: none;
+  border-radius: .3em;
+  display: inline-block;
+  font-size: 1em;
+  padding: .5em 1em;
+}
+
+#contact:hover {
+  background-color: #4A235A;
+}
+
+#contact a {
+  color: #ffffff;
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 680px) {
